@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #319a36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/fundo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    width: 290px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.sub {
+    text-align: center;
+    font-size: 12px;
+    color: #8b949e;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    margin-top: 5px;
+    background: white;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box span {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.options a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #238636;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signup a {
+    color: #58a6ff;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    margin-top: 5px;
+    background: white;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.password-box span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #161b22;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.sidebar h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #30363d;
+}
+
+.main {
+    margin-left: 270px;
+    padding: 40px;
+    color: white;
+}
